@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color: aqua;
+}
+input,button{
+    display: block;
+    margin: auto;
+
+}
+input{
+    margin-top: 200px;
+    border-radius:5px ;
+     height: 30px;
+     width: 300px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     outline: none;
+     padding: 5px 10px;
+     font-size: 20px;
+     border: none;
+}
+button{
+    margin-top: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-size: 20px;
+    border: none;
+}
+.error{
+    background-color:  green;
+     display: none;
+     padding: 20px;
+     margin: 30px;
+     color: white;
+     border-radius: 10px;
+     font-size: 25px;
+}
